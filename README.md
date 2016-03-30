@@ -2,6 +2,8 @@
 
 The Adtoma Fusion SDK Example is an example application using Adtoma Fusion SDK for displaying ads.
 
+The code is distributed with AdtomaFusionSDK installed using CocoaPods.
+
 ## Intended use
 The example only shows the basic usage of the SDK (banner ad), for more detailed information about the SDK plese refer to the SDK documentation.
 
