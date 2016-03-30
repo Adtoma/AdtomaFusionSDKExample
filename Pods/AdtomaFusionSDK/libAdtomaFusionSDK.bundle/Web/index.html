@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Adtoma Fusion Ad</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<script src="mraid.js"></script>
+		<script src="fusion.js"></script>
+		<script type="text/javascript">
+			window.Fusion.adServer = "$ADSERVERURL$";
+			window.Fusion.mediaZone = "$MEDIAZONE$";
+			window.Fusion.layout = "$LAYOUT$";
+            window.Fusion.protocol = "$PROTOCOL$";
+            $PROPERTIESINJECT$
+            
+            window.Fusion.loadAds();
+		</script>
+	</head>
+	<body style="margin: 0; padding: 0; margin:auto;">
+		<div id="fus-ad" style="margin:auto;">
+			<script type="text/javascript">
+                window.Fusion.space("$SPACENAME$");
+			</script>
+		</div>
+	</body>
+</html>

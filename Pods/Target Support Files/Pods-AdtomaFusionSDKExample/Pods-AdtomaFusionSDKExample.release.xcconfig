@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AdtomaFusionSDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/AdtomaFusionSDK"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AdtomaFusionSDK"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AdtomaFusionSDK" -framework "CoreFoundation" -framework "CoreLocation" -framework "CoreTelephony" -framework "EventKit" -framework "Foundation" -framework "MediaPlayer" -framework "MessageUI" -framework "MobileCoreServices" -framework "UIKit"
+PODS_ROOT = ${SRCROOT}/Pods

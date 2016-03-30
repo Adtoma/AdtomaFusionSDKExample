@@ -1,0 +1,1 @@
+../../../AdtomaFusionSDK/Headers/AFPlacementType.h
