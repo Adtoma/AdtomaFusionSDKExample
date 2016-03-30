@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "AdtomaFusionSDK.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AFAdViewDelegate>
 
 
 @end

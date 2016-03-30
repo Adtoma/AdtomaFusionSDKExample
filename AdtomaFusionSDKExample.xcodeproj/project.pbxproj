@@ -12,10 +12,12 @@
 		CB65557E1CABE1970012D858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB65557D1CABE1970012D858 /* ViewController.m */; };
 		CB6555811CABE1970012D858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB65557F1CABE1970012D858 /* Main.storyboard */; };
 		CB6555831CABE1970012D858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6555821CABE1970012D858 /* Assets.xcassets */; };
-		CB6555861CABE1970012D858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6555841CABE1970012D858 /* LaunchScreen.storyboard */; };
+		CC8522C8056563B7D8205180 /* libPods-AdtomaFusionSDKExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5820DCBC8FB39584E8FAC13 /* libPods-AdtomaFusionSDKExample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DF45A76FE957EA30FECEB20 /* Pods-AdtomaFusionSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtomaFusionSDKExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AdtomaFusionSDKExample/Pods-AdtomaFusionSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B5820DCBC8FB39584E8FAC13 /* libPods-AdtomaFusionSDKExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AdtomaFusionSDKExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6555731CABE1970012D858 /* AdtomaFusionSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdtomaFusionSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB6555771CABE1970012D858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB6555791CABE1970012D858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -24,8 +26,11 @@
 		CB65557D1CABE1970012D858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB6555801CABE1970012D858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6555821CABE1970012D858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CB6555851CABE1970012D858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6555871CABE1970012D858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB65558D1CABE1CB0012D858 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB6555A11CABF8A90012D858 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		CB6555A31CABF8CA0012D858 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FDB13D41392142033530257B /* Pods-AdtomaFusionSDKExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdtomaFusionSDKExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-AdtomaFusionSDKExample/Pods-AdtomaFusionSDKExample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +38,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8522C8056563B7D8205180 /* libPods-AdtomaFusionSDKExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39AA499395BCD588FE57C397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DF45A76FE957EA30FECEB20 /* Pods-AdtomaFusionSDKExample.debug.xcconfig */,
+				FDB13D41392142033530257B /* Pods-AdtomaFusionSDKExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB65556A1CABE1970012D858 = {
 			isa = PBXGroup;
 			children = (
+				CB6555A31CABF8CA0012D858 /* README.md */,
+				CB6555A11CABF8A90012D858 /* LICENSE.md */,
+				CB65558D1CABE1CB0012D858 /* Podfile */,
 				CB6555751CABE1970012D858 /* AdtomaFusionSDKExample */,
 				CB6555741CABE1970012D858 /* Products */,
+				39AA499395BCD588FE57C397 /* Pods */,
+				D31BA3D609CFC09E0A2ED3E2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,7 +84,6 @@
 				CB65557D1CABE1970012D858 /* ViewController.m */,
 				CB65557F1CABE1970012D858 /* Main.storyboard */,
 				CB6555821CABE1970012D858 /* Assets.xcassets */,
-				CB6555841CABE1970012D858 /* LaunchScreen.storyboard */,
 				CB6555871CABE1970012D858 /* Info.plist */,
 				CB6555761CABE1970012D858 /* Supporting Files */,
 			);
@@ -79,6 +98,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D31BA3D609CFC09E0A2ED3E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5820DCBC8FB39584E8FAC13 /* libPods-AdtomaFusionSDKExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB65558A1CABE1970012D858 /* Build configuration list for PBXNativeTarget "AdtomaFusionSDKExample" */;
 			buildPhases = (
+				7576B7E8413BCEA5F75022EA /* 📦 Check Pods Manifest.lock */,
 				CB65556F1CABE1970012D858 /* Sources */,
 				CB6555701CABE1970012D858 /* Frameworks */,
 				CB6555711CABE1970012D858 /* Resources */,
+				C1E28FF8539CC23F751FF748 /* 📦 Embed Pods Frameworks */,
+				2CD538AC23E31EDE38132330 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,13 +167,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB6555861CABE1970012D858 /* LaunchScreen.storyboard in Resources */,
 				CB6555831CABE1970012D858 /* Assets.xcassets in Resources */,
 				CB6555811CABE1970012D858 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD538AC23E31EDE38132330 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtomaFusionSDKExample/Pods-AdtomaFusionSDKExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7576B7E8413BCEA5F75022EA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C1E28FF8539CC23F751FF748 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AdtomaFusionSDKExample/Pods-AdtomaFusionSDKExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB65556F1CABE1970012D858 /* Sources */ = {
@@ -165,14 +242,6 @@
 				CB6555801CABE1970012D858 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CB6555841CABE1970012D858 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB6555851CABE1970012D858 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -264,6 +333,7 @@
 		};
 		CB65558B1CABE1970012D858 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DF45A76FE957EA30FECEB20 /* Pods-AdtomaFusionSDKExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdtomaFusionSDKExample/Info.plist;
@@ -275,6 +345,7 @@
 		};
 		CB65558C1CABE1970012D858 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDB13D41392142033530257B /* Pods-AdtomaFusionSDKExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AdtomaFusionSDKExample/Info.plist;
@@ -303,6 +374,7 @@
 				CB65558C1CABE1970012D858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
