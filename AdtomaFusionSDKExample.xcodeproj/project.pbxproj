@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB6555781CABE1970012D858 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6555771CABE1970012D858 /* main.m */; };
+		CB65557B1CABE1970012D858 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB65557A1CABE1970012D858 /* AppDelegate.m */; };
+		CB65557E1CABE1970012D858 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB65557D1CABE1970012D858 /* ViewController.m */; };
+		CB6555811CABE1970012D858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB65557F1CABE1970012D858 /* Main.storyboard */; };
+		CB6555831CABE1970012D858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6555821CABE1970012D858 /* Assets.xcassets */; };
+		CB6555861CABE1970012D858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6555841CABE1970012D858 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB6555731CABE1970012D858 /* AdtomaFusionSDKExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdtomaFusionSDKExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB6555771CABE1970012D858 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB6555791CABE1970012D858 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB65557A1CABE1970012D858 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB65557C1CABE1970012D858 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB65557D1CABE1970012D858 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB6555801CABE1970012D858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB6555821CABE1970012D858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB6555851CABE1970012D858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB6555871CABE1970012D858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB6555701CABE1970012D858 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB65556A1CABE1970012D858 = {
+			isa = PBXGroup;
+			children = (
+				CB6555751CABE1970012D858 /* AdtomaFusionSDKExample */,
+				CB6555741CABE1970012D858 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB6555741CABE1970012D858 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB6555731CABE1970012D858 /* AdtomaFusionSDKExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB6555751CABE1970012D858 /* AdtomaFusionSDKExample */ = {
+			isa = PBXGroup;
+			children = (
+				CB6555791CABE1970012D858 /* AppDelegate.h */,
+				CB65557A1CABE1970012D858 /* AppDelegate.m */,
+				CB65557C1CABE1970012D858 /* ViewController.h */,
+				CB65557D1CABE1970012D858 /* ViewController.m */,
+				CB65557F1CABE1970012D858 /* Main.storyboard */,
+				CB6555821CABE1970012D858 /* Assets.xcassets */,
+				CB6555841CABE1970012D858 /* LaunchScreen.storyboard */,
+				CB6555871CABE1970012D858 /* Info.plist */,
+				CB6555761CABE1970012D858 /* Supporting Files */,
+			);
+			path = AdtomaFusionSDKExample;
+			sourceTree = "<group>";
+		};
+		CB6555761CABE1970012D858 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB6555771CABE1970012D858 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB6555721CABE1970012D858 /* AdtomaFusionSDKExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB65558A1CABE1970012D858 /* Build configuration list for PBXNativeTarget "AdtomaFusionSDKExample" */;
+			buildPhases = (
+				CB65556F1CABE1970012D858 /* Sources */,
+				CB6555701CABE1970012D858 /* Frameworks */,
+				CB6555711CABE1970012D858 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdtomaFusionSDKExample;
+			productName = AdtomaFusionSDKExample;
+			productReference = CB6555731CABE1970012D858 /* AdtomaFusionSDKExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB65556B1CABE1970012D858 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Adtoma AB";
+				TargetAttributes = {
+					CB6555721CABE1970012D858 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DE7P489BXU;
+					};
+				};
+			};
+			buildConfigurationList = CB65556E1CABE1970012D858 /* Build configuration list for PBXProject "AdtomaFusionSDKExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB65556A1CABE1970012D858;
+			productRefGroup = CB6555741CABE1970012D858 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB6555721CABE1970012D858 /* AdtomaFusionSDKExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB6555711CABE1970012D858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6555861CABE1970012D858 /* LaunchScreen.storyboard in Resources */,
+				CB6555831CABE1970012D858 /* Assets.xcassets in Resources */,
+				CB6555811CABE1970012D858 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB65556F1CABE1970012D858 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB65557E1CABE1970012D858 /* ViewController.m in Sources */,
+				CB65557B1CABE1970012D858 /* AppDelegate.m in Sources */,
+				CB6555781CABE1970012D858 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB65557F1CABE1970012D858 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6555801CABE1970012D858 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB6555841CABE1970012D858 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB6555851CABE1970012D858 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB6555881CABE1970012D858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB6555891CABE1970012D858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB65558B1CABE1970012D858 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdtomaFusionSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adtoma.AdtomaFusionSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB65558C1CABE1970012D858 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AdtomaFusionSDKExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adtoma.AdtomaFusionSDKExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB65556E1CABE1970012D858 /* Build configuration list for PBXProject "AdtomaFusionSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB6555881CABE1970012D858 /* Debug */,
+				CB6555891CABE1970012D858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB65558A1CABE1970012D858 /* Build configuration list for PBXNativeTarget "AdtomaFusionSDKExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB65558B1CABE1970012D858 /* Debug */,
+				CB65558C1CABE1970012D858 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB65556B1CABE1970012D858 /* Project object */;
+}
