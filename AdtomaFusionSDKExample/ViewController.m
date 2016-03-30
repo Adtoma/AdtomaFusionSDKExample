@@ -34,10 +34,6 @@
     
     // set to NO if no close indicator should be visible
     self.fusionAdView.showCloseIndicatorOnBannerAds = YES;
-    // no animation on resize
-    self.fusionAdView.animateResize = YES;
-    self.fusionAdView.autoResizeToCreativeSize = YES;
-    
 }
 
 - (UIViewController *) adViewController {
