@@ -1,6 +1,6 @@
 {
   "name": "AdtomaFusionSDK",
-  "version": "1.8.0-simulator",
+  "version": "1.8.0",
   "summary": "AdtomaFusionSDK is a library that helps displaying ads from the Adtoma networn within iOS applications",
   "description": "The Adtoma Fusion SDK for iOS is an iOS framework (library) that allows iOS application developers to display ads served by the Adtoma Fusion ad management system in their applications. The SDK is MRAID compatible (see [Mobile Rich Media Ad Interface Definitions (MRAID)](http://www.iab.net/mraid)).",
   "homepage": "http://www.adtoma.com",
@@ -15,8 +15,8 @@
     "ios": null
   },
   "source": {
-    "git": "https://github.com/mysza/AdtomaFusionSDK.git",
-    "tag": "1.8.0-simulator"
+    "git": "https://github.com/Adtoma/AdtomaFusionSDK.git",
+    "tag": "1.8.0"
   },
   "requires_arc": true,
   "source_files": "Headers/*.h",

@@ -1,22 +1,22 @@
 PODS:
-  - AdtomaFusionSDK (1.8.0-simulator)
+  - AdtomaFusionSDK (1.8.0)
 
 DEPENDENCIES:
-  - AdtomaFusionSDK (from `https://github.com/mysza/AdtomaFusionSDK.git`, tag `1.8.0-simulator`)
+  - AdtomaFusionSDK (from `https://github.com/Adtoma/AdtomaFusionSDK.git`, tag `1.8.0-simulator`)
 
 EXTERNAL SOURCES:
   AdtomaFusionSDK:
-    :git: https://github.com/mysza/AdtomaFusionSDK.git
+    :git: https://github.com/Adtoma/AdtomaFusionSDK.git
     :tag: 1.8.0-simulator
 
 CHECKOUT OPTIONS:
   AdtomaFusionSDK:
-    :git: https://github.com/mysza/AdtomaFusionSDK.git
+    :git: https://github.com/Adtoma/AdtomaFusionSDK.git
     :tag: 1.8.0-simulator
 
 SPEC CHECKSUMS:
-  AdtomaFusionSDK: ea34365d038ab416b21e45c9a3d831c4c5bbe20e
+  AdtomaFusionSDK: e42de4f0ff9c41bd133303bc45ac7b7b0871aa5a
 
-PODFILE CHECKSUM: 3a3f72a9dc5101560bc72468f16d79615a7e5801
+PODFILE CHECKSUM: 65c1ab540574a43e1a2da5ea26f377b5d1e6aa62
 
 COCOAPODS: 1.0.0.beta.6

@@ -1,3 +1,3 @@
 target 'AdtomaFusionSDKExample' do
-    pod 'AdtomaFusionSDK', { :git => 'https://github.com/mysza/AdtomaFusionSDK.git', :tag => '1.8.0-simulator' }
+    pod 'AdtomaFusionSDK', { :git => 'https://github.com/Adtoma/AdtomaFusionSDK.git', :tag => '1.8.0-simulator' }
 end
